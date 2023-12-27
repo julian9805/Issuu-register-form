@@ -1,0 +1,97 @@
+.logo img{ 
+    width: 200px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+}
+hr{
+    width: 4000px;
+    height: 1.5px;
+    background-color: black;
+    opacity: 0.1;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+
+}
+.sign-in p{
+    margin: 2px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 76, 255, 0.995);
+}
+button{
+    text-decoration: none;
+}
+.Google{
+    background-image: url("https://store.freeemaildatabase.com/assets/images/Google_Button.png");
+    padding: 10px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+}
+.Facebook{
+    background-image: url("https://www.freeiconspng.com/uploads/facebook-sign-in-button-png-26.png");
+    padding: 10px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+input[type="text"],input[type="password"]{
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+label[for="password"]{
+    margin-top: 20px;
+}
+.term{
+    margin-top: 40px;
+}
+.send-for{
+    border: 1px dashed;
+    border-radius: 50px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    opacity: 0.5;
+    font-weight: 700;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+.privacy{
+    display: flex;
+    gap: 15px;
+
+}
+.container{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/Font\ familys/Roboto-Black.ttf);
+}
